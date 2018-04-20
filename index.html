@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<title>Twinkle Capote || UI/UX Designer • Developer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Core CSS -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+
+<!-- Custom -->
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/index.css" />
+
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><strong><span class="w3-text-red">T</span>winkle <span class="w3-text-red">C</span>apote</strong></h1>
+    <p>UI/UX Designer and Developer.<br/></p>
+    <img src="assets/Twinkle.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="assets/Twinkle.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <a class="w3-button w3-light-grey w3-padding-large w3-margin-top" href="https://www.dropbox.com/s/h9r8dcnb64vc26g/TwinkleCapote_Resume_Revised.docx?dl=0" target="_blank">
+      <i class="fa fa-eye"></i> View Resume
+    </a>
+    
+    <hr class="w3-opacity">
+    <p>The ever-changing trends in web design keeps me going. <br/>There’s always something new to learn.</p>
+    <p>I focus on <span class="w3-text-red">cross-platform, responsive and up-to-date web &amp; mobile designs</span>. It’s awesome!</p>
+    <p><br/>...I do enjoy photography, Japanese culture, fashion, travelling and music as well.</p>
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Portfolio</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="assets/TwinkleCapote_ECA.jpg" style="width:100%">
+        <img src="assets/Octus-Open-House-Flyer.jpg" style="width:100%">
+        <img src="assets/Aviva-EzSnap.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="assets/Home%20-%20Desktop%20Hd.png" style="width:100%">
+        <img src="assets/Employment-History-Grid.jpg" style="width:100%">
+        <img src="assets/Aviva-Website.png" style="width:100%">
+        <img src="assets/NDP%20Fireworks%202017_3000x2000.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>My passion for up-to-date design and development for web and mobile applications started off in 2009, when I learned how to do develop in Java and write web pages using only Notepad and eventually Adobe Dreamweaver. I also learned about design thinking using user persona and criteria for user-friendly applications.</p>
+    <p>I was able to apply those knowledge as a Mobile Developer, and successfully published cross-platform mobile applications in Play Store and App Store using Cordova from 2013 to 2014. </p>
+    <p>Halfway through 2014, I joined Aviva as an Application Analyst - designing and developing contents for their corporate websites and mobile applications. These applications were Aviva EzSnap, FPI SG and AstraLife. </p>
+    <p>In 2017, I joined Octus as a Front End Developer - developing new features and improving the UI/UX design for their existing CRM using Javascript 6, KendoUI, Bootstrap, BackboneJS and many more.</p>
+    <p>Also, I am currently upgrading myself and pursuing a part-time degree in Multimedia Technology and Design at Singapore University of Social Sciences (SUSS). You can say I work in the day, and study at night. </p>
+    <p>To see through these ever-changing transitions in the design trends and web technology is actually pretty exciting for me. It's never boring and there's always something new to learn!</p>
+    
+    <!-- Skills -->
+    <h3 class="w3-padding-16">My Skills</h3>
+    <hr class="w3-opacity">
+
+    <p class="w3-wide">HTML5</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-red opacity-60" style="width:95%">95%</div>
+    </div>
+    <p class="w3-wide">Javascript (ES 5/6)</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-red opacity-60" style="width:75%">75%</div>
+    </div>
+    <p class="w3-wide">CSS3 / SASS</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-red opacity-60" style="width:80%">80%</div>
+    </div>
+    <p class="w3-wide">Photoshop CS6</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-red opacity-60" style="width:80%">80%</div>
+    </div>
+    <p class="w3-wide">Sketch</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-red opacity-60" style="width:75%">75%</div>
+    </div>
+    <p class="w3-wide">Java / C# / C++ / Object Pascal</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-red opacity-60" style="width:70%">70%</div>
+    </div>
+    <br>
+    
+    <!-- Toolbox -->
+    <h3 class="w3-padding-16">Toolbox</h3>
+    <hr class="w3-opacity">
+    <ul>
+      <li>AngularJS, Backbone.Marionette, Handlebars, JQuery, underscore.js, lodash</li>
+      <li>Cordova (Phonegap), Gulp, Grunt, NodeJS</li>
+      <li>MacOS, Windows</li>
+      <li>SublimeText, Adobe Photoshop CS6, InvisionApp, Sketch, iMovie, Blender, MS Office</li>
+      <li>OpenCMS 7, SDL Tridion 2011</li>
+      <li>Eclipse, IntelliJ</li>
+      <li>Git, Git Flow, SourceTree, Bitbucket, GitHub</li>
+      <li>Atlassian Confluence, JIRA</li>
+    </ul>
+    <br>
+    
+    <!-- Career -->
+    <h3 class="w3-padding-16">I've worked with...</h3>
+    <hr class="w3-opacity">
+    <div class="w3-row w3-center w3-padding-16 w3-section career-logos">
+      <img src="assets/logos/csf.png">
+      <img src="assets/logos/lao-moe.png">
+      <img src="assets/logos/aviva.png">
+      <img src="assets/logos/friends-life.png">
+      <img src="assets/logos/astra-life.png">
+      <img src="assets/logos/e-cop.png">
+    </div>
+
+    <a class="w3-button w3-light-grey w3-padding-large w3-section" href="https://www.dropbox.com/s/h9r8dcnb64vc26g/TwinkleCapote_Resume_Revised.docx?dl=0" target="_blank">
+      <i class="fa fa-eye"></i> View Resume
+    </a>
+
+    <!-- Education -->
+    <h3 class="w3-padding-24"><br/>Education</h3>
+    <hr class="w3-opacity">
+    <div class="w3-row w3-center w3-padding-16 w3-section">
+      <div class="w3-third w3-section">
+        <img class="img-education" src="assets/education.png"><br>
+        <strong><span class="w3-text-red">Juying Secondary School</span></strong><br/>
+        GCE ‘O’ Levels<br/>
+        2006 - 2008
+      </div>
+      <div class="w3-third w3-section">
+        <img class="img-education" src="assets/education.png"><br>
+        <strong><span class="w3-text-red">Nanyang Polytechnic</span></strong><br/>
+        Diploma in IT<br/>
+        2009 - 2012
+      </div>
+      <div class="w3-third w3-section">
+        <img class="img-education active" src="assets/education.png"><br>
+        <strong><span class="w3-text-red">Singapore University of Social Sciences</span></strong><br/>
+        BSc Multimedia Tech and Design<br/>
+        2015 - Present
+      </div>
+    </div>
+    
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Punggol, Singapore</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +65 98516730</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:twinkle.capote@gmail.com">twinkle.capote@gmail.com</a></p>
+    </div>
+    
+     <!-- Google Map -->
+    <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:300px;margin:36px 0;"></div>
+
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity" onclick="openFacebook()"></i>
+    <i class="fa fa-instagram w3-hover-opacity" onclick="openInstagram()"></i>
+    <i class="fa fa-linkedin w3-hover-opacity" onclick="openLinkedin()"></i>
+    <p class="w3-medium">Twinkle Capote &copy; 2018</p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<!-- Add Google Maps -->
+<script src="js/index.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6Cq7eWBV_tL7r9IgZzjayX2bTnbzaFpE&callback=myMap"></script>
+
+</body>
+</html>
