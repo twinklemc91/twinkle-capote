@@ -1,0 +1,54 @@
+{
+  "name": "twinkle-capote",
+  "version": "1.0.0",
+  "description": "My Virtual Playground Powered by Bootstrap Material Design and ES6",
+  "main": ".babelrc.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.24.4",
+    "browserify": "^16.2.0",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^7.0.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-minify": "^2.1.0",
+    "gulp-uglify": "^3.0.0",
+    "uglify-es": "^3.3.9",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack": "^4.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twinklemc91/twinkle-capote.git"
+  },
+  "keywords": [
+    "es6",
+    "bootstrap",
+    "material",
+    "gulp",
+    "git",
+    "html5",
+    "sass"
+  ],
+  "author": "Twinkle Capote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twinklemc91/twinkle-capote/issues"
+  },
+  "homepage": "https://github.com/twinklemc91/twinkle-capote#readme"
+}

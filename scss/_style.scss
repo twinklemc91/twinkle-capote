@@ -1,0 +1,58 @@
+$primary-font-size: 12px;
+$primary-background-color: white;
+
+body {
+	font-size: $primary-font-size;
+	background-color: $primary-background-color;
+}
+
+.container { height: 100vh; text-align: center; }
+.clearfix { clear: both; height: 25px; }
+
+.progress { 
+	height: 20px;
+	width: 100%;
+	margin-bottom: 10px;
+
+	.progress-bar {  
+		height: 20px; 
+		-webkit-transition: width 0.5s;
+		transition: width 0.5s; }}
+
+.mdb-select { 
+	border: none;
+	margin: 5px; 
+	border-radius: inherit; 
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
+	-webkit-appearance: initial;
+	padding: 6px; }
+
+#contents-btn { display: inline-flex; }
+
+/** Global */
+// body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+// .w3-row-padding img {margin-bottom: 12px}
+// .bgimg {
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-image: url('../assets/Twinkle.jpg');
+//     min-height: 100%;
+// }
+
+// /** About **/
+// img.img-education { width: 35%; margin-bottom: 10px; filter: brightness(1) grayscale(100%); opacity: .5;}
+// 	img.img-education.active { filter: none; opacity: 1; }
+
+// /** Portfolio **/
+// #portfolio img { transition: .5s ease; filter: brightness(1) grayscale(100%); opacity: .5; }
+// 	#portfolio img:hover { filter: none; opacity: 1; }
+
+// /** Career **/
+// .career-logos img { width: 15%; padding: 0 0.8rem 0 0.8rem; transition: .5s ease; filter: brightness(1) grayscale(100%); opacity: .5; }
+// 	.career-logos img:hover { filter: grayscale(0%); opacity: 1; }
+
+// /** Custom Styles **/
+// .opacity-50 { opacity: 0.50 }
+// .opacity-60 { opacity: 0.60 }
