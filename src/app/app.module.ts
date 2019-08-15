@@ -13,6 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CareersAndEducationComponent } from './careers-and-education/careers-and-education.component';
 
+import { ParticlesComponent } from '../assets/resources/vendor/particles/particles.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { CareersAndEducationComponent } from './careers-and-education/careers-an
     ContactComponent,
     HomeComponent,
     PortfolioComponent,
-    CareersAndEducationComponent
+    CareersAndEducationComponent,
+    ParticlesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +6,8 @@ import * as AOS from 'aos';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'twinkle-capote-portfolio';
+  title = 'twinkle-capote';
 
   ngOnInit() {
-    AOS.init();
   }
 }

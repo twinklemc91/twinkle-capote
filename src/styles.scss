@@ -19,6 +19,8 @@
 $main-theme-color: #ff3f3f;
 $main-theme-color-hover: #f20000;
 
+BODY, HTML { overflow-x: hidden; }
+
 section {
     position: relative;
     padding: 6rem 0;
@@ -181,6 +183,14 @@ section {
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
+    -webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 2s;
+
+    &:hover {
+      border-color: $main-theme-color;
+      color: white;
+      background: $main-theme-color;
+    }
   }
   
   .z-index-1 {
@@ -2059,5 +2069,15 @@ section {
   
   .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
+  }
+
+  .gray-icon {
+    color: #6c757d;
+    -webkit-transition: color 1.2s; /* For Safari 3.1 to 6.0 */
+    transition: color 1.2s;
+
+    &:hover {
+      color: $main-theme-color;
+    }
   }
   

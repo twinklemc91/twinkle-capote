@@ -8,5 +8,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 
 export class PortfolioComponent implements OnInit {
-    ngOnInit() {}
+    ngOnInit() {
+        
+    }
 }
