@@ -2080,4 +2080,8 @@ section {
       color: $main-theme-color;
     }
   }
-  
+
+  /** OVERRIDE: Onepage-scroll **/
+  body.disabled-onepage-scroll {
+    overflow: hidden;
+  }
